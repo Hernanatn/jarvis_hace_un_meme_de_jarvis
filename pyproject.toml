@@ -7,6 +7,16 @@ name = "jarvis"
 version = "0.1.0"
 description = "Generador de memes 'jarvis,' a partir de una imagen con texto superior e inferior."
 readme = "README.md"
+license = { file = "LICENSE" }
+license-files = ["LICENSE"]
+authors = [
+  { name = "RAC", email = "rac@chaska.ar" },
+  { name = "Hernán Ariel Teszkiewicz Novick", email = "hernan@teszkiewi.cz" },
+  { name = "Ch'aska SRL", email = "hola@chaska.srl" },
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+]
 requires-python = ">=3.9"
 dependencies = ["Pillow>=9"]
 
