@@ -1,0 +1,10 @@
+# Entorno virtual
+.venv/
+
+# Artefactos de build
+build/
+dist/
+*.egg-info/
+
+# Imágenes de meme generadas por la CLI
+jarvis,-*.webp
