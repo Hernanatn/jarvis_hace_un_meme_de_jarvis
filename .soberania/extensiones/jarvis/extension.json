@@ -1,0 +1,24 @@
+{
+    "$schema": "https://soberania.chaska.ar/esquemas/extension/1.json",
+    "nombre": "jarvis",
+    "version": "1.0.0",
+    "descripcion": "Genera memes 'jarvis,' con el texto inferior indicado (comando /jarvis).",
+    "autor": {
+        "nombre": "RAC · Ch'aska S.R.L."
+    },
+    "api": 1,
+    "entrada": "extension.py",
+    "aporta": {
+        "herramientas": [],
+        "comandos": [
+            "jarvis"
+        ],
+        "bloques": []
+    },
+    "pide": {
+        "subsistemas": [
+            "procesos"
+        ]
+    },
+    "distribucion": {}
+}
